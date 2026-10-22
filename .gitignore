@@ -1,0 +1,52 @@
+# Unity generates these locally. Assets, Packages, LocalPackages,
+# ProjectSettings and all source .meta files must be committed.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/AssetStoreTools*
+
+# IDE / OS generated files
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+.vs/
+.idea/
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
+# Python tooling and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+
+# Generated diagnostic traces; keep small JSON summaries and reports.
+/Validation/Parity/**/*.jsonl
+/Validation/Parity/**/*.npz
+/Validation/Parity/**/*.csv
+
+# Generated files under Assets have their own generated .meta files.
+/Assets/Validation/
+/Assets/Validation.meta

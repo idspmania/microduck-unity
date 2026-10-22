@@ -1,0 +1,42 @@
+Mono path[0] = '/Users/henry.oh/Desktop/Local My Work/Personal Projects/Microduck/MicroduckUnity/Builds/MicroduckPolicyLab.app/Contents/Resources/Data/Managed'
+Mono config path = '/Users/henry.oh/Desktop/Local My Work/Personal Projects/Microduck/MicroduckUnity/Builds/MicroduckPolicyLab.app/Contents/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Users/henry.oh/Desktop/Local My Work/Personal Projects/Microduck/MicroduckUnity/Builds/MicroduckPolicyLab.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Initializing Metal device caps: Apple M1 Pro
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.005 seconds
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Metal RecreateSurface[0x10c4e6780]: surface size 1440x900
+UnloadTime: 0.842125 ms
+MICRODUCK_READY MuJoCo 3.10.0 / Sentis CPU / obs61 / act14 / physics200Hz / policy50Hz
+MICRODUCK_STANDALONE_SMOKE {"unity_version":"6000.6.4f1","passed":true,"frames_observed":1431,"policy_steps":600,"falls":0,"errors":0,"simulation_time_s":11.985000000000474,"wall_time_s":13.154635667800903,"final_tilt_degrees":2.056119203567505}
+Thread 0x16f64b000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16e3f3000 may have been prematurely finalized
+Thread 0x16e367000 may have been prematurely finalized
+CodeReloadManager destroyed

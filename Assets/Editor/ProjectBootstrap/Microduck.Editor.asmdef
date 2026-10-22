@@ -1,0 +1,6 @@
+{
+  "name": "Microduck.Editor",
+  "references": ["Microduck.Runtime", "Mujoco.Runtime", "Mujoco.Editor", "Unity.InferenceEngine", "Unity.TextMeshPro"],
+  "includePlatforms": ["Editor"],
+  "allowUnsafeCode": true
+}

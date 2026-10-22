@@ -1,0 +1,69 @@
+{
+  "bundle_policy_sha256": "a9eac6302096630fc6f6c1d64f5a6d62e207895fea661786b8923bad6ed2b1c4",
+  "mujoco_version": "3.10.0",
+  "ort_version": "1.24.4",
+  "onnx_opset": 18,
+  "initializer_shapes": {
+    "obs_normalizer._mean": [
+      1,
+      61
+    ],
+    "mlp.0.weight": [
+      512,
+      61
+    ],
+    "mlp.0.bias": [
+      512
+    ],
+    "mlp.2.weight": [
+      256,
+      512
+    ],
+    "mlp.2.bias": [
+      256
+    ],
+    "mlp.4.weight": [
+      128,
+      256
+    ],
+    "mlp.4.bias": [
+      128
+    ],
+    "mlp.6.weight": [
+      14,
+      128
+    ],
+    "mlp.6.bias": [
+      14
+    ],
+    "onnx::Div_24": [
+      1,
+      61
+    ]
+  },
+  "input_shape": [
+    1,
+    61
+  ],
+  "output_shape": [
+    1,
+    14
+  ],
+  "actor_mlp_parameters": 197774,
+  "static_and_recorded_cases": 609,
+  "mac_ort_max_abs_error": 4.76837158203125e-07,
+  "native_nq": 21,
+  "native_nv": 20,
+  "native_nu": 14,
+  "native_body_count": 16,
+  "native_mesh_count": 38,
+  "bam_commit": "62bd8ce12154340be97e06f7f41a0ca8f116d967",
+  "physics_model": "scene_bam.xml",
+  "nominal_voltage": 7.4,
+  "voltage_drop_gain": 0.1,
+  "differences_from_training": [
+    "Single nominal environment; no sensor noise, encoder bias, pushes, mass/CoM DR.",
+    "Deterministic four physics-step actuator delay within training range 3..6.",
+    "Native CPU MuJoCo instead of MuJoCo Warp; no PPO at runtime."
+  ]
+}

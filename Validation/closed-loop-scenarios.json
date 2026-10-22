@@ -1,0 +1,56 @@
+{
+    "scenarios": [
+        {
+            "name": "idle",
+            "command": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "policy_steps": 600,
+            "fell": false,
+            "elapsed_s": 12.000000000000476,
+            "distance_m": 0.5324543486567859,
+            "x_m": 0.5316093531999905,
+            "y_m": 0.02998547971618538,
+            "final_tilt_degrees": 1.8343925476074219,
+            "max_tilt_degrees": 3.943333625793457,
+            "yaw_change_radians": -0.5731120004980027
+        },
+        {
+            "name": "forward_0.2mps",
+            "command": {
+                "x": 0.20000000298023224,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "policy_steps": 600,
+            "fell": false,
+            "elapsed_s": 12.000000000000476,
+            "distance_m": 1.2074833384803798,
+            "x_m": 1.1547778645285127,
+            "y_m": -0.3528513799075915,
+            "final_tilt_degrees": 2.3082942962646484,
+            "max_tilt_degrees": 3.7071831226348877,
+            "yaw_change_radians": -1.1620652637680144
+        },
+        {
+            "name": "turn_0.6radps",
+            "command": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.6000000238418579
+            },
+            "policy_steps": 600,
+            "fell": false,
+            "elapsed_s": 12.000000000000476,
+            "distance_m": 0.5943512581211553,
+            "x_m": 0.5876522087063636,
+            "y_m": 0.08898482810419221,
+            "final_tilt_degrees": 1.0053023099899292,
+            "max_tilt_degrees": 3.6821892261505127,
+            "yaw_change_radians": -0.23144684503113364
+        }
+    ],
+    "note": "Nominal CPU deployment tests, no training randomization. Performance of the supplied checkpoint, not a new training result."
+}

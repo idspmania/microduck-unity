@@ -1,0 +1,345 @@
+{
+  "policy": "microduck_walk_1024_model_1500.onnx",
+  "policy_sha256": "a9eac6302096630fc6f6c1d64f5a6d62e207895fea661786b8923bad6ed2b1c4",
+  "checkpoint": "training/model_1500.pt",
+  "checkpoint_iteration": 1500,
+  "checkpoint_common_step_counter": 36048,
+  "input_name": "obs",
+  "input_shape": [
+    1,
+    61
+  ],
+  "input_type": "float32",
+  "output_name": "actions",
+  "output_shape": [
+    1,
+    14
+  ],
+  "output_type": "float32",
+  "normalization_baked_into_onnx": true,
+  "physics_dt_s": 0.005,
+  "policy_dt_s": 0.02,
+  "physics_steps_per_policy": 4,
+  "action_scale": 1.0,
+  "action_formula": "q_target = home_rad + action_scale * raw_action",
+  "joint_names": [
+    "left_hip_yaw",
+    "left_hip_roll",
+    "left_hip_pitch",
+    "left_knee",
+    "left_ankle",
+    "neck_pitch",
+    "head_pitch",
+    "head_yaw",
+    "head_roll",
+    "right_hip_yaw",
+    "right_hip_roll",
+    "right_hip_pitch",
+    "right_knee",
+    "right_ankle"
+  ],
+  "home_rad": [
+    0.0,
+    -0.0873,
+    -0.4579,
+    -0.0049,
+    0.453,
+    0.3491,
+    0.3491,
+    0.0,
+    0.0,
+    0.0,
+    0.0873,
+    0.4579,
+    0.0049,
+    -0.453
+  ],
+  "joint_mapping_raw_scene_walk": [
+    {
+      "name": "left_hip_yaw",
+      "home_rad": 0.0,
+      "joint_id": 1,
+      "qpos_address": 7,
+      "qvel_address": 6,
+      "actuator_ctrl_id": 0,
+      "raw_scene_joint_range_rad": [
+        -0.4363323129985824,
+        0.5235987755982988
+      ]
+    },
+    {
+      "name": "left_hip_roll",
+      "home_rad": -0.0873,
+      "joint_id": 2,
+      "qpos_address": 8,
+      "qvel_address": 7,
+      "actuator_ctrl_id": 1,
+      "raw_scene_joint_range_rad": [
+        -0.3839724354386992,
+        0.38397243543880577
+      ]
+    },
+    {
+      "name": "left_hip_pitch",
+      "home_rad": -0.4579,
+      "joint_id": 3,
+      "qpos_address": 9,
+      "qvel_address": 8,
+      "actuator_ctrl_id": 2,
+      "raw_scene_joint_range_rad": [
+        -1.570796326794949,
+        1.5707963267948442
+      ]
+    },
+    {
+      "name": "left_knee",
+      "home_rad": -0.0049,
+      "joint_id": 4,
+      "qpos_address": 10,
+      "qvel_address": 9,
+      "actuator_ctrl_id": 3,
+      "raw_scene_joint_range_rad": [
+        -1.5707963267948983,
+        1.5707963267948948
+      ]
+    },
+    {
+      "name": "left_ankle",
+      "home_rad": 0.453,
+      "joint_id": 5,
+      "qpos_address": 11,
+      "qvel_address": 10,
+      "actuator_ctrl_id": 4,
+      "raw_scene_joint_range_rad": [
+        -1.5707963267949063,
+        1.5707963267948868
+      ]
+    },
+    {
+      "name": "neck_pitch",
+      "home_rad": 0.3491,
+      "joint_id": 6,
+      "qpos_address": 12,
+      "qvel_address": 11,
+      "actuator_ctrl_id": 5,
+      "raw_scene_joint_range_rad": [
+        -1.5707963267948974,
+        1.0471975511965967
+      ]
+    },
+    {
+      "name": "head_pitch",
+      "home_rad": 0.3491,
+      "joint_id": 7,
+      "qpos_address": 13,
+      "qvel_address": 12,
+      "actuator_ctrl_id": 6,
+      "raw_scene_joint_range_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ]
+    },
+    {
+      "name": "head_yaw",
+      "home_rad": 0.0,
+      "joint_id": 8,
+      "qpos_address": 14,
+      "qvel_address": 13,
+      "actuator_ctrl_id": 7,
+      "raw_scene_joint_range_rad": [
+        -2.9670597283903613,
+        2.9670597283903595
+      ]
+    },
+    {
+      "name": "head_roll",
+      "home_rad": 0.0,
+      "joint_id": 9,
+      "qpos_address": 15,
+      "qvel_address": 14,
+      "actuator_ctrl_id": 8,
+      "raw_scene_joint_range_rad": [
+        -0.43633231299858327,
+        0.4363323129985815
+      ]
+    },
+    {
+      "name": "right_hip_yaw",
+      "home_rad": 0.0,
+      "joint_id": 10,
+      "qpos_address": 16,
+      "qvel_address": 15,
+      "actuator_ctrl_id": 9,
+      "raw_scene_joint_range_rad": [
+        -0.523598775598297,
+        0.43633231299858416
+      ]
+    },
+    {
+      "name": "right_hip_roll",
+      "home_rad": 0.0873,
+      "joint_id": 11,
+      "qpos_address": 17,
+      "qvel_address": 16,
+      "actuator_ctrl_id": 10,
+      "raw_scene_joint_range_rad": [
+        -0.3839724354387507,
+        0.38397243543875426
+      ]
+    },
+    {
+      "name": "right_hip_pitch",
+      "home_rad": 0.4579,
+      "joint_id": 12,
+      "qpos_address": 18,
+      "qvel_address": 17,
+      "actuator_ctrl_id": 11,
+      "raw_scene_joint_range_rad": [
+        -1.57079632679494,
+        1.570796326794853
+      ]
+    },
+    {
+      "name": "right_knee",
+      "home_rad": 0.0049,
+      "joint_id": 13,
+      "qpos_address": 19,
+      "qvel_address": 18,
+      "actuator_ctrl_id": 12,
+      "raw_scene_joint_range_rad": [
+        -1.5707963267949339,
+        1.5707963267948593
+      ]
+    },
+    {
+      "name": "right_ankle",
+      "home_rad": -0.453,
+      "joint_id": 14,
+      "qpos_address": 20,
+      "qvel_address": 19,
+      "actuator_ctrl_id": 13,
+      "raw_scene_joint_range_rad": [
+        -1.5707963267949028,
+        1.5707963267948903
+      ]
+    }
+  ],
+  "observation_layout": [
+    {
+      "start": 0,
+      "count": 3,
+      "name": "base_ang_vel",
+      "unit": "rad/s, body/IMU frame"
+    },
+    {
+      "start": 3,
+      "count": 3,
+      "name": "projected_gravity",
+      "unit": "unit vector, body frame"
+    },
+    {
+      "start": 6,
+      "count": 14,
+      "name": "joint_pos",
+      "unit": "q - home_rad"
+    },
+    {
+      "start": 20,
+      "count": 14,
+      "name": "joint_vel",
+      "unit": "rad/s"
+    },
+    {
+      "start": 34,
+      "count": 14,
+      "name": "actions",
+      "unit": "previous raw policy action"
+    },
+    {
+      "start": 48,
+      "count": 3,
+      "name": "twist",
+      "unit": "vx,vy m/s; wz rad/s"
+    },
+    {
+      "start": 51,
+      "count": 4,
+      "name": "head_pose",
+      "unit": "HOME-relative rad"
+    },
+    {
+      "start": 55,
+      "count": 6,
+      "name": "body_pose",
+      "unit": "x,y,z m; roll,pitch,yaw rad"
+    }
+  ],
+  "command_ranges_at_run_start": {
+    "lin_vel_x": [
+      -0.4,
+      0.4
+    ],
+    "lin_vel_y": [
+      -0.3,
+      0.3
+    ],
+    "ang_vel_z": [
+      -1.0,
+      1.0
+    ],
+    "heading": [
+      -3.141592653589793,
+      3.141592653589793
+    ]
+  },
+  "bam_actuator_config_at_run_start": [
+    {
+      "target_names_expr": [
+        "^(?!passive_).*"
+      ],
+      "transmission_type": [
+        "joint"
+      ],
+      "armature": null,
+      "frictionloss": null,
+      "viscous_damping": null,
+      "delay_min_lag": 3,
+      "delay_max_lag": 6,
+      "delay_hold_prob": 0.0,
+      "delay_update_period": 0,
+      "delay_per_env_phase": true,
+      "motor_name": "xl330",
+      "model": "m6",
+      "json_path": null,
+      "vin": null,
+      "kp_fw": 200.0,
+      "vin_range": [
+        6.5,
+        8.2
+      ],
+      "vin_drop_gain_range": [
+        0.0,
+        0.2
+      ],
+      "vin_min": 6.0,
+      "stiff_frictionloss": true
+    }
+  ],
+  "onnx_metadata_raw": {
+    "run_path": "logs/rsl_rl/velocity/2026-10-22_11-35-47_rtx3070_walk_1024/model_1500.pt",
+    "joint_names": "left_hip_yaw,left_hip_roll,left_hip_pitch,left_knee,left_ankle,neck_pitch,head_pitch,head_yaw,head_roll,right_hip_yaw,right_hip_roll,right_hip_pitch,right_knee,right_ankle",
+    "joint_stiffness": "1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000",
+    "joint_damping": "0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000",
+    "default_joint_pos": "0.000,-0.087,-0.458,-0.005,0.453,0.349,0.349,0.000,0.000,0.000,0.087,0.458,0.005,-0.453",
+    "command_names": "twist,head_pose,body_pose",
+    "observation_names": "base_ang_vel,projected_gravity,joint_pos,joint_vel,actions,command,head_command,body_command",
+    "action_scale": "1.0"
+  },
+  "notes": [
+    "Raw scene joint/actuator IDs are diagnostics; always resolve IDs by name after importing into Unity.",
+    "Original YAML is the run-start configuration. Curriculum state counter is stored in the checkpoint.",
+    "The raw scene uses XML actuator definitions. Its successful load does not validate BAM behavior.",
+    "Metadata default_joint_pos is rounded; home_rad above is taken from the saved training configuration.",
+    "The JSON is a portable reference, not an executable Unity controller."
+  ]
+}

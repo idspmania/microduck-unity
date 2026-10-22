@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "command": "command job",
+  "data": {
+    "command": "job",
+    "parameters": {
+      "condition": "{\"member\":\"UnityEngine.Time.frameCount\",\"op\":\"changed\"}",
+      "timeout": "10"
+    },
+    "result": {
+      "state": "met",
+      "met": true,
+      "timedOut": false,
+      "member": "UnityEngine.Time.frameCount",
+      "op": "changed",
+      "value": 20231,
+      "initialValue": 20210,
+      "elapsedMs": 114,
+      "framesObserved": 2
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/henry.oh/Desktop/Local My Work/Personal Projects/Microduck/MicroduckUnity"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

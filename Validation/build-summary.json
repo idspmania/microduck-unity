@@ -1,0 +1,13 @@
+{
+  "result": "Succeeded",
+  "platform": "StandaloneOSX",
+  "outputPath": "/Users/henry.oh/Desktop/Local My Work/Personal Projects/Microduck/MicroduckUnity/Builds/MicroduckPolicyLab.app",
+  "buildTimeMs": 10783,
+  "buildStartedAt": "2026-10-22T04:35:39.1520540Z",
+  "buildEndedAt": "2026-10-22T04:35:49.9351340Z",
+  "totalErrors": 0,
+  "totalWarnings": 346,
+  "totalSizeBytes": 132917921,
+  "architecture": "arm64",
+  "warning_notes": "Dependency shader variants (Sentis convolution kernels and TMP shader pragma); the policy uses CPU MLP inference. Full warnings preserved in build-report.json."
+}

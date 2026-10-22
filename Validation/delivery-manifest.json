@@ -1,0 +1,15 @@
+{
+  "unity": "6000.6.4f1",
+  "files": {
+    "Assets/Microduck/Models/microduck_walk_1024_model_1500.onnx": "a9eac6302096630fc6f6c1d64f5a6d62e207895fea661786b8923bad6ed2b1c4",
+    "Assets/StreamingAssets/Microduck/robot/scene_bam.xml": "cfd7807c4d28621f535f9aaf416b77e8ee4416c1c2cd0387b65aaaefa4a27aa9",
+    "Assets/StreamingAssets/Microduck/policy_contract.json": "d5af056dbd767189ebb4cac39b20624b61a7ad7cf2f944fe3346378968bfb69d",
+    "Assets/StreamingAssets/Microduck/bam_m6.json": "61c699362fb3fabdde93eeba5e1ad3bf4ef9ca2f71d03e316b1924ff005b20d3",
+    "Assets/Plugins/macOS/mujoco.dylib": "0f56b01188b9b07297d6b3299391c8e37b8c996e0ab5af2e1d398b327385d41d",
+    "Assets/Microduck/Scenes/MicroduckLab.unity": "4d5e2b920380a36846270964df8f81f5cd6936270134141c0f797bf084eaf816",
+    "Assets/Microduck/Scripts/Policy.cs": "5fa909ec7dc9ccd0f05d2686e147314c3e84d438259b4e51fa75c42d6779ba89",
+    "Assets/Microduck/Scripts/MicroduckSimulation.cs": "1ab20f4973a157a504cc45a0755820f08733e96618a0c7790faa850e53349423",
+    "Assets/Microduck/Scripts/StandaloneSmokeTest.cs": "af8621233863b73acf8f12549dcf0822c239d7ea18dd0f91a57cf937839d1c05",
+    "Assets/Microduck/Scripts/MicroduckView.cs": "19be2834371cca1a5b63e91973b0cc7fc33024b75ce1cc8f19e94e95e0e078d4"
+  }
+}

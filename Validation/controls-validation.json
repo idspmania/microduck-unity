@@ -1,0 +1,10 @@
+{
+  "idle": true,
+  "walk": true,
+  "turn": true,
+  "pause": true,
+  "reset": true,
+  "single_physics_owner": true,
+  "event_systems": 1,
+  "passed": true
+}

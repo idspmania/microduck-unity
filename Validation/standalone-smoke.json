@@ -1,0 +1,11 @@
+{
+    "unity_version": "6000.6.4f1",
+    "passed": true,
+    "frames_observed": 1431,
+    "policy_steps": 600,
+    "falls": 0,
+    "errors": 0,
+    "simulation_time_s": 11.985000000000474,
+    "wall_time_s": 13.154635667800903,
+    "final_tilt_degrees": 2.056119203567505
+}

@@ -1,0 +1,15 @@
+# Repository defaults. Git does not read this file automatically.
+# Activate per clone with: git config --local include.path ../.gitconfig
+# Run `git lfs install --local` once per clone as well.
+[core]
+    autocrlf = false
+    safecrlf = warn
+    whitespace = trailing-space,space-before-tab
+[pull]
+    ff = only
+[fetch]
+    prune = true
+[diff]
+    algorithm = histogram
+[merge]
+    conflictstyle = zdiff3

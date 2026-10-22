@@ -1,0 +1,5 @@
+{
+  "name": "Microduck.Runtime",
+  "references": ["Mujoco.Runtime", "Unity.InferenceEngine", "Unity.InputSystem", "UnityEngine.UI", "Unity.TextMeshPro"],
+  "allowUnsafeCode": true
+}

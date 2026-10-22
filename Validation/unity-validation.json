@@ -1,0 +1,12 @@
+{
+    "unity_version": "6000.6.4f1",
+    "native_version": "3.10.0",
+    "sentis_backend": "CPU",
+    "inference_cases": 609,
+    "bam_cases": 128,
+    "physics_steps": 12,
+    "inference_max_absolute_error": 0.0000016689300537109375,
+    "bam_max_absolute_error": 2.220446049250313e-16,
+    "physics_max_absolute_error": 2.1094237467877974e-15,
+    "passed": true
+}
