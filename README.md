@@ -13,7 +13,7 @@ Microduck locomotion was trained on an NVIDIA RTX 3070 Laptop GPU using WSL2. Th
 | Physics stack | MuJoCo 3.10.0, MuJoCo Warp 3.8.1, Warp 1.12.0 |
 | Learning algorithm | PPO with RSL-RL 5.0.1 |
 | Task | `Mjlab-Velocity-Flat-MicroDuck` |
-| Parallel environments | 512 initially; 1,024 after resuming from `model_950.pt` |
+| Parallel environments | 512 initially, 1,024 after resuming from `model_950.pt` |
 | Physics / policy frequency | 200 Hz / 50 Hz |
 | Policy input / output | 61 actor observations / 14 joint-position actions |
 | Actuator model | BAM M6 for Dynamixel XL330 servos |
@@ -25,4 +25,4 @@ The exported ONNX policy was trained with **512 parallel environments up to iter
 
 Iteration 1,500 is the cumulative iteration index across both phases, not 1,500 additional iterations after resuming.
 
-(Images/Screenshot1.png)
+![Microduck locomotion training screenshot](Images/Screenshot1.png)
