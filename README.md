@@ -1,4 +1,4 @@
-## Microduck Locomotion Training (Experimental)
+## Microduck Locomotion Training & Unity Simulation (Ongoing Project)
 
 Microduck locomotion was trained on an NVIDIA RTX 3070 Laptop GPU using WSL2. The policy learns to track body-frame linear and angular velocity commands on flat terrain, including forward walking, backward walking, lateral movement, and turning in place.
 
